@@ -5,7 +5,7 @@ public class PlayerController : NetworkBehaviour
 {
     void Update()
     {
-        if (isLocalPlayer)
+        if (!isLocalPlayer)
         {
             return;
         }
